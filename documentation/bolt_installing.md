@@ -9,7 +9,7 @@ and Microsoft Windows.
 
 | Operating system          | Versions            |
 | ------------------------- | ------------------- |
-| Debian                    | 9, 10, 11           |
+| Debian                    | 10, 11              |
 | Fedora                    | 34                  |
 | macOS                     | 11, 12              |
 | Microsoft Windows*        | 10 Enterprise       |
@@ -27,15 +27,6 @@ and Microsoft Windows.
 
 To install Bolt, run the appropriate command for the version of Debian you
 have installed:
-
-- _Debian 9_
-
-  ```shell
-  wget https://apt.puppet.com/puppet-tools-release-stretch.deb
-  sudo dpkg -i puppet-tools-release-stretch.deb
-  sudo apt-get update
-  sudo apt-get install puppet-bolt
-  ```
 
 - _Debian 10_
 
