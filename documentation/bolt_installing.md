@@ -9,7 +9,7 @@ and Microsoft Windows.
 
 | Operating system          | Versions            |
 | ------------------------- | ------------------- |
-| Debian                    | 10, 11              |
+| Debian                    | 10, 11, 12          |
 | Fedora                    | 34                  |
 | macOS                     | 11, 12              |
 | Microsoft Windows*        | 10 Enterprise       |
@@ -42,6 +42,15 @@ have installed:
   ```shell
   wget https://apt.puppet.com/puppet-tools-release-bullseye.deb
   sudo dpkg -i puppet-tools-release-bullseye.deb
+  sudo apt-get update
+  sudo apt-get install puppet-bolt
+  ```
+
+- _Debian 12_
+
+  ```shell
+  wget https://apt.puppet.com/puppet-tools-release-bookworm.deb
+  sudo dpkg -i puppet-tools-release-bookworm.deb
   sudo apt-get update
   sudo apt-get install puppet-bolt
   ```
